@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/statistics_layout"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Wybierz przedział czasowy"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/text_view_first_date"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Data początkowa"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:id="@+id/text_view_second_date"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Data końcowa"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:focusableInTouchMode="false"/>
+
+        <Button
+            android:id="@+id/show_statistics_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Wyświetl"/>
+
+        <TextView
+            android:id="@+id/text_view_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"/>
+
+        <com.anychart.AnyChartView
+            android:id="@+id/statistics_chart"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

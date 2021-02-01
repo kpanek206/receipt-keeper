@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783874258645",
+    "firebase_url": "https://receiptkeeperapp-45e87-default-rtdb.firebaseio.com",
+    "project_id": "receiptkeeperapp-45e87",
+    "storage_bucket": "receiptkeeperapp-45e87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783874258645:android:f2f47efa0bed416e77545c",
+        "android_client_info": {
+          "package_name": "com.example.receiptkeeperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783874258645-a5jf5agd7ttkvp6gi08ahg7f3a2i0muc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.receiptkeeperapp",
+            "certificate_hash": "bf86f9c425c2d23d997db412ad1f01b09a97e36d"
+          }
+        },
+        {
+          "client_id": "783874258645-c026jn948hit46ua9ea8lmml5ffh52cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM5mK-7wGyWAff-OVxuFZho2oNUSzkdbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783874258645-c026jn948hit46ua9ea8lmml5ffh52cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

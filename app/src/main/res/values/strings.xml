@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">eParagon</string>
+
+    <string-array name="categories">
+        <item>Elektronika</item>
+        <item>Odzież</item>
+        <item>Obuwie</item>
+        <item>Jedzenie</item>
+        <item>Zdrowie</item>
+        <item>Kosmetyki</item>
+        <item>Motoryzacja</item>
+        <item>Dom</item>
+        <item>Zabawki</item>
+        <item>Inne</item>
+    </string-array>
+</resources>
